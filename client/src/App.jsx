@@ -3,7 +3,7 @@ import { useState } from 'react';
      import './App.css';
 
      function App() {
-       const [deliveryDate, setDeliveryDate] = useState('>2025-09-02');
+       const [deliveryDate, setDeliveryDate] = useState('>9/2/2025');
        const [data, setData] = useState([]);
        const [error, setError] = useState(null);
 
@@ -27,7 +27,7 @@ import { useState } from 'react';
              type="text"
              value={deliveryDate}
              onChange={(e) => setDeliveryDate(e.target.value)}
-             placeholder="Delivery Date (e.g., >2025-09-02)"
+             placeholder="Delivery Date (e.g., >9/2/2025)"
            />
            <button onClick={handleSubmit}>Query</button>
            {error && <p style={{ color: 'red' }}>{error}</p>}
