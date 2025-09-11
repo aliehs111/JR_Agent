@@ -1,0 +1,815 @@
+Control Identifiers:
+
+Dialog - 'POv10 (CF-VM-App)'    (L-8, T-8, R2568, B1400)
+['POv10 (CF-VM-App)', 'Dialog', 'POv10 (CF-VM-App)Dialog']
+child_window(title="POv10 (CF-VM-App)", control_type="Window")
+   | 
+   | Pane - 'Content Area'    (L0, T43, R2560, B1392)
+   | ['Pane', 'Content Area', 'Content AreaPane']
+   | child_window(title="Content Area", auto_id="View: 5234", control_type="Pane")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L880, T417, R1680, B1017)
+   |    | ['Custom', 'Shape Rectangle', 'Shape RectangleCustom', 'Custom0', 'Custom1', 'Shape Rectangle0', 'Shape Rectangle1', 'Shape RectangleCustom0', 'Shape RectangleCustom1']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168063", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L925, T446, R1625, B966)
+   |    | ['Custom2', 'Shape Rectangle2', 'Shape RectangleCustom2']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168066", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L953, T831, R1598, B921)
+   |    | ['Custom3', 'Shape Rectangle3', 'Shape RectangleCustom3']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168069", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L927, T447, R1623, B472)
+   |    | ['Custom4', 'Shape Rectangle4', 'Shape RectangleCustom4']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168072", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Line'    (L926, T446, R1624, B448)
+   |    | ['Custom5', 'Shape Line', 'Shape LineCustom', 'Shape Line0', 'Shape Line1', 'Shape LineCustom0', 'Shape LineCustom1']
+   |    | child_window(title="Shape Line", auto_id="Shape: 168075", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Line'    (L938, T926, R1614, B928)
+   |    | ['Custom6', 'Shape Line2', 'Shape LineCustom2']
+   |    | child_window(title="Shape Line", auto_id="Shape: 168079", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Line'    (L938, T927, R1614, B929)
+   |    | ['Custom7', 'Shape Line3', 'Shape LineCustom3']
+   |    | child_window(title="Shape Line", auto_id="Shape: 168080", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L953, T498, R1598, B708)
+   |    | ['Custom8', 'Shape Rectangle5', 'Shape RectangleCustom5']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168081", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Line'    (L925, T446, R927, B925)
+   |    | ['Custom9', 'Shape Line4', 'Shape LineCustom4']
+   |    | child_window(title="Shape Line", auto_id="Shape: 168084", control_type="Custom")
+   |    | 
+   |    | Static - 'Find Purchase Order'    (L931, T451, R1051, B468)
+   |    | ['Find Purchase Order', 'Static', 'Find Purchase OrderStatic', 'Static0', 'Static1']
+   |    | child_window(title="Find Purchase Order", auto_id="Layout Object: 168085", control_type="Text")
+   |    | 
+   |    | Static - 'Status'    (L1091, T587, R1146, B602)
+   |    | ['StatusStatic', 'Status', 'Static2']
+   |    | child_window(title="Status", auto_id="Layout Object: 168090", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1212, T522, R1307, B540)
+   |    | ['PO#Edit', 'Edit', 'Edit0', 'Edit1']
+   |    | child_window(auto_id="Field: POv10::PO#", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L1212, T562, R1307, B580)
+   |    | ['Order DateEdit', 'Edit2']
+   |    | child_window(auto_id="Field: POv10::Order Date", control_type="Edit")
+   |    | 
+   |    | ComboBox - ''    (L1094, T604, R1206, B618)
+   |    | ['ComboBox', 'StatusComboBox', 'ComboBox0', 'ComboBox1']
+   |    | child_window(auto_id="Field: Podat::Status Search", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L1092, T602, R1207, B620)
+   |    | ['StatusEdit', 'Edit3']
+   |    | child_window(auto_id="Field: Podat::Status Search", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L967, T522, R1087, B540)
+   |    | ['SidemarkEdit', 'Edit4']
+   |    | child_window(auto_id="Field: POv10::Sidemark", control_type="Edit")
+   |    | 
+   |    | Static - 'Job #'    (L1311, T506, R1366, B521)
+   |    | ['Job #Static', 'Job #', 'Static3']
+   |    | child_window(title="Job #", auto_id="Layout Object: 168120", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1312, T522, R1407, B540)
+   |    | ['Job #Edit', 'Edit5']
+   |    | child_window(auto_id="Field: POv10::Record #", control_type="Edit")
+   |    | 
+   |    | Static - 'Enter PO Information'    (L934, T477, R1082, B494)
+   |    | ['Enter PO Information', 'Enter PO InformationStatic', 'Static4']
+   |    | child_window(title="Enter PO Information", auto_id="Layout Object: 168130", control_type="Text")
+   |    | 
+   |    | Static - 'Enter Product Information'    (L934, T718, R1085, B735)
+   |    | ['Enter Product InformationStatic', 'Enter Product Information', 'Static5']
+   |    | child_window(title="Enter Product Information", auto_id="Layout Object: 168135", control_type="Text")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L953, T739, R1598, B804)
+   |    | ['Custom10', 'Shape Rectangle6', 'Shape RectangleCustom6']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168140", control_type="Custom")
+   |    | 
+   |    | Static - 'Type'    (L967, T745, R994, B760)
+   |    | ['Type', 'Static6', 'TypeStatic']
+   |    | child_window(title="Type", auto_id="Layout Object: 168143", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L968, T760, R1068, B778)
+   |    | ['TypeEdit', 'Edit6']
+   |    | child_window(auto_id="Field: Podat::Category", control_type="Edit")
+   |    | 
+   |    | ComboBox - ''    (L1094, T524, R1204, B538)
+   |    | ['ComboBox2', 'Sales PersonComboBox']
+   |    | child_window(auto_id="Field: POv10::Sales Person", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L1092, T522, R1207, B540)
+   |    | ['Sales PersonEdit', 'Edit7']
+   |    | child_window(auto_id="Field: POv10::Sales Person", control_type="Edit")
+   |    | 
+   |    | Static - 'Sales Person'    (L1093, T507, R1158, B522)
+   |    | ['Sales Person', 'Sales PersonStatic', 'Static7']
+   |    | child_window(title="Sales Person", auto_id="Layout Object: 168163", control_type="Text")
+   |    | 
+   |    | Static - 'Order By Date'    (L1311, T547, R1380, B562)
+   |    | ['Order By Date', 'Order By DateStatic', 'Static8']
+   |    | child_window(title="Order By Date", auto_id="Layout Object: 168168", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1312, T562, R1407, B580)
+   |    | ['Order By DateEdit', 'Edit8']
+   |    | child_window(auto_id="Field: POv10::Creation Date", control_type="Edit")
+   |    | 
+   |    | Static - 'Expected Date'    (L1411, T547, R1483, B562)
+   |    | ['Expected Date', 'Expected DateStatic', 'Static9']
+   |    | child_window(title="Expected Date", auto_id="Layout Object: 168178", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1412, T562, R1507, B580)
+   |    | ['Expected DateEdit', 'Edit9']
+   |    | child_window(auto_id="Field: POv10::Expected Date", control_type="Edit")
+   |    | 
+   |    | ComboBox - ''    (L969, T564, R1084, B578)
+   |    | ['ComboBox3', 'VendorComboBox']
+   |    | child_window(auto_id="Field: POv10::Vendor ID", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L967, T562, R1087, B580)
+   |    | ['Edit10', 'VendorEdit', 'VendorEdit0', 'VendorEdit1']
+   |    | child_window(auto_id="Field: POv10::Vendor ID", control_type="Edit")
+   |    | 
+   |    | Static - 'Vendor'    (L968, T547, R1033, B562)
+   |    | ['VendorStatic', 'Vendor', 'Static10']
+   |    | child_window(title="Vendor", auto_id="Layout Object: 168198", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1092, T562, R1207, B580)
+   |    | ['Reference #Edit', 'Edit11', 'VendorEdit2']
+   |    | child_window(auto_id="Field: POv10::Reference #", control_type="Edit")
+   |    | 
+   |    | Static - 'Reference #'    (L1093, T547, R1158, B562)
+   |    | ['Reference #', 'Reference #Static', 'Static11']
+   |    | child_window(title="Reference #", auto_id="Layout Object: 168208", control_type="Text")
+   |    | 
+   |    | Static - 'Product ID'    (L1073, T745, R1125, B760)
+   |    | ['Product IDStatic', 'Product ID', 'Static12']
+   |    | child_window(title="Product ID", auto_id="Layout Object: 168213", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1073, T760, R1143, B778)
+   |    | ['Product IDEdit', 'Edit12']
+   |    | child_window(auto_id="Field: Podat::Product ID#", control_type="Edit")
+   |    | 
+   |    | Static - 'Product Description'    (L1148, T745, R1242, B760)
+   |    | ['Product DescriptionStatic', 'Static13', 'Product Description']
+   |    | child_window(title="Product Description", auto_id="Layout Object: 168223", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1148, T760, R1313, B796)
+   |    | ['Edit13', 'Product DescriptionEdit']
+   |    | child_window(auto_id="Field: Podat::Comb Style", control_type="Edit")
+   |    | 
+   |    | Static - 'Color / Item Number'    (L1420, T745, R1518, B760)
+   |    | ['Color / Item NumberStatic', 'Color / Item Number', 'Static14']
+   |    | child_window(title="Color / Item Number", auto_id="Layout Object: 168233", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1420, T760, R1585, B796)
+   |    | ['Edit14', 'Color / Item NumberEdit']
+   |    | child_window(auto_id="Field: Podat::Comb Color", control_type="Edit")
+   |    | 
+   |    | Button - ''    (L1166, T938, R1236, B956)
+   |    | ['CancelButton', 'Button', 'CancelButton0', 'CancelButton1', 'Button0', 'Button1']
+   |    | child_window(auto_id="Group: 168243", control_type="Button")
+   |    | 
+   |    | Static - 'Cancel'    (L1190, T939, R1228, B954)
+   |    | ['CancelStatic', 'Cancel', 'Static15']
+   |    | child_window(title="Cancel", auto_id="Layout Object: 168251", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1241, T938, R1311, B956)
+   |    | ['CancelButton2', 'Button2']
+   |    | child_window(auto_id="Group: 168256", control_type="Button")
+   |    | 
+   |    | Static - 'Xtra Find'    (L1259, T939, R1311, B954)
+   |    | ['Xtra Find', 'Xtra FindStatic', 'Static16']
+   |    | child_window(title="Xtra Find", auto_id="Layout Object: 168264", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1316, T938, R1386, B956)
+   |    | ['Xtra FindButton', 'Button3']
+   |    | child_window(auto_id="Group: 168269", control_type="Button")
+   |    | 
+   |    | Static - 'Find'    (L1329, T939, R1381, B954)
+   |    | ['FindStatic', 'Static17', 'Find']
+   |    | child_window(title="Find", auto_id="Layout Object: 168277", control_type="Text")
+   |    | 
+   |    | ComboBox - ''    (L967, T602, R1087, B620)
+   |    | ['ComboBox4', 'Store # / NameComboBox']
+   |    | child_window(auto_id="Field: POv10::Store Number", control_type="ComboBox")
+   |    | 
+   |    | Static - 'Store # / Name'    (L968, T587, R1042, B602)
+   |    | ['Store # / Name', 'Static18', 'Store # / NameStatic']
+   |    | child_window(title="Store # / Name", auto_id="Layout Object: 168287", control_type="Text")
+   |    | 
+   |    | Static - 'B of L #'    (L1211, T627, R1265, B642)
+   |    | ['B of L #Static', 'Static19', 'B of L #']
+   |    | child_window(title="B of L #", auto_id="Layout Object: 168292", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1212, T642, R1307, B660)
+   |    | ['B of L #Edit', 'Edit15']
+   |    | child_window(auto_id="Field: POv10::Bill of Laiden", control_type="Edit")
+   |    | 
+   |    | Static - 'Ship To'    (L1311, T587, R1380, B602)
+   |    | ['Static20', 'Ship ToStatic', 'Ship To']
+   |    | child_window(title="Ship To", auto_id="Layout Object: 168302", control_type="Text")
+   |    | 
+   |    | ComboBox - ''    (L1314, T602, R1406, B620)
+   |    | ['ComboBox5', 'Ship ToComboBox']
+   |    | child_window(auto_id="Field: POv10::Ship To", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L1312, T602, R1407, B620)
+   |    | ['Ship ToEdit', 'Edit16']
+   |    | child_window(auto_id="Field: POv10::Ship To", control_type="Edit")
+   |    | 
+   |    | Static - 'Ship Via'    (L1411, T587, R1480, B602)
+   |    | ['Ship Via', 'Ship ViaStatic', 'Static21']
+   |    | child_window(title="Ship Via", auto_id="Layout Object: 168317", control_type="Text")
+   |    | 
+   |    | ComboBox - ''    (L1414, T602, R1585, B620)
+   |    | ['ComboBox6', 'Ship ViaComboBox']
+   |    | child_window(auto_id="Field: POv10::Carrier Search", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L1412, T602, R1586, B620)
+   |    | ['Ship ViaEdit', 'Edit17']
+   |    | child_window(auto_id="Field: POv10::Carrier Search", control_type="Edit")
+   |    | 
+   |    | Static - 'Contract #'    (L1411, T506, R1466, B521)
+   |    | ['Contract #Static', 'Contract #', 'Static22']
+   |    | child_window(title="Contract #", auto_id="Layout Object: 168332", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1412, T522, R1507, B540)
+   |    | ['Edit18', 'Contract #Edit']
+   |    | child_window(auto_id="Field: POv10::Contract Number", control_type="Edit")
+   |    | 
+   |    | ComboBox - ''    (L967, T642, R1087, B660)
+   |    | ['ComboBox7', 'Entry PersonComboBox', 'Entry PersonComboBox0', 'Entry PersonComboBox1']
+   |    | child_window(auto_id="Field: POv10::Entry Person Name", control_type="ComboBox")
+   |    | 
+   |    | Static - 'Entry Person'    (L968, T627, R1042, B642)
+   |    | ['Entry Person', 'Entry PersonStatic', 'Static23']
+   |    | child_window(title="Entry Person", auto_id="Layout Object: 168347", control_type="Text")
+   |    | 
+   |    | ComboBox - ''    (L1094, T644, R1204, B658)
+   |    | ['ComboBox8', 'Entry PersonComboBox2', 'Ordered ByComboBox']
+   |    | child_window(auto_id="Field: POv10::Ordered By", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L1092, T642, R1207, B660)
+   |    | ['Edit19', 'Ordered ByEdit']
+   |    | child_window(auto_id="Field: POv10::Ordered By", control_type="Edit")
+   |    | 
+   |    | Static - 'Ordered By'    (L1093, T627, R1158, B642)
+   |    | ['Ordered ByStatic', 'Ordered By', 'Static24']
+   |    | child_window(title="Ordered By", auto_id="Layout Object: 168362", control_type="Text")
+   |    | 
+   |    | Image - 'Image Container'    (L1245, T941, R1258, B954)
+   |    | ['Image', 'Image Container', 'Image ContainerImage', 'Image0', 'Image1', 'Image Container0', 'Image Container1', 'Image ContainerImage0', 'Image ContainerImage1']
+   |    | child_window(title="Image Container", auto_id="Container: ", control_type="Image")
+   |    | 
+   |    | Image - 'Image Container'    (L1320, T941, R1333, B954)
+   |    | ['Image2', 'Image Container2', 'Image ContainerImage2']
+   |    | child_window(title="Image Container", auto_id="Container: ", control_type="Image")
+   |    | 
+   |    | Edit - ''    (L1212, T602, R1307, B620)
+   |    | ['Ship DateEdit', 'Edit20', 'Ship DateEdit0', 'Ship DateEdit1']
+   |    | child_window(auto_id="Field: POv10::Ship Date", control_type="Edit")
+   |    | 
+   |    | Static - 'Project #'    (L1310, T627, R1364, B642)
+   |    | ['Project #', 'Project #Static', 'Static25']
+   |    | child_window(title="Project #", auto_id="Layout Object: 168380", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1311, T642, R1406, B660)
+   |    | ['Project #Edit', 'Edit21']
+   |    | child_window(auto_id="Field: POv10::Project #", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L968, T853, R1182, B871)
+   |    | ['Address / Lot / SuiteEdit', 'Edit22', 'Address / Lot / SuiteEdit0', 'Address / Lot / SuiteEdit1']
+   |    | child_window(auto_id="Field: POv10::Ship To Address", control_type="Edit")
+   |    | 
+   |    | Static - 'Address / Lot / Suite'    (L967, T838, R1064, B853)
+   |    | ['Address / Lot / Suite', 'Address / Lot / SuiteStatic', 'Static26']
+   |    | child_window(title="Address / Lot / Suite", auto_id="Layout Object: 168395", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L968, T893, R1082, B911)
+   |    | ['Address / Lot / SuiteEdit2', 'Edit23']
+   |    | child_window(auto_id="Field: POv10::Ship To City", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L1085, T893, R1109, B911)
+   |    | ['Address / Lot / SuiteEdit3', 'Edit24']
+   |    | child_window(auto_id="Field: POv10::Ship To State", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L1112, T893, R1182, B911)
+   |    | ['Address / Lot / SuiteEdit4', 'Edit25']
+   |    | child_window(auto_id="Field: POv10::Ship To Zip", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L968, T876, R1058, B891)
+   |    | ['Address / Lot / SuiteEdit5', 'Edit26']
+   |    | child_window(auto_id="Field: POv10::gCity", control_type="Edit")
+   |    | 
+   |    | Static - 'Ship To Address'    (L934, T810, R1085, B827)
+   |    | ['Ship To AddressStatic', 'Static27', 'Ship To Address']
+   |    | child_window(title="Ship To Address", auto_id="Layout Object: 168420", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1083, T876, R1173, B891)
+   |    | ['Address / Lot / SuiteEdit6', 'Ship To AddressEdit', 'Edit27']
+   |    | child_window(auto_id="Field: POv10::gState", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L1113, T876, R1203, B891)
+   |    | ['Address / Lot / SuiteEdit7', 'Edit28']
+   |    | child_window(auto_id="Field: POv10::gZip", control_type="Edit")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T951, R1176, B952)
+   |    | ['Custom11', 'Shape Rectangle7', 'Shape RectangleCustom7']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168438", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T941, R1176, B942)
+   |    | ['Custom12', 'Shape Rectangle8', 'Shape RectangleCustom8']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168441", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T951, R1175, B952)
+   |    | ['Custom13', 'Shape Rectangle9', 'Shape RectangleCustom9']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168444", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T950, R1174, B951)
+   |    | ['Custom14', 'Shape Rectangle10', 'Shape RectangleCustom10']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168447", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T949, R1173, B950)
+   |    | ['Custom15', 'Shape Rectangle11', 'Shape RectangleCustom11']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168450", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T948, R1172, B949)
+   |    | ['Custom16', 'Shape Rectangle12', 'Shape RectangleCustom12']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168453", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1170, T947, R1171, B948)
+   |    | ['Custom17', 'Shape Rectangle13', 'Shape RectangleCustom13']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168456", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T941, R1175, B942)
+   |    | ['Custom18', 'Shape Rectangle14', 'Shape RectangleCustom14']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168459", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T942, R1174, B943)
+   |    | ['Custom19', 'Shape Rectangle15', 'Shape RectangleCustom15']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168462", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T943, R1173, B944)
+   |    | ['Custom20', 'Shape Rectangle16', 'Shape RectangleCustom16']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168465", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1169, T946, R1170, B947)
+   |    | ['Custom21', 'Shape Rectangle17', 'Shape RectangleCustom17']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168468", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T944, R1172, B945)
+   |    | ['Custom22', 'Shape Rectangle18', 'Shape RectangleCustom18']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168471", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1170, T945, R1171, B946)
+   |    | ['Custom23', 'Shape Rectangle19', 'Shape RectangleCustom19']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168474", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1180, T947, R1181, B948)
+   |    | ['Custom24', 'Shape Rectangle20', 'Shape RectangleCustom20']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168477", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T948, R1178, B949)
+   |    | ['Custom25', 'Shape Rectangle21', 'Shape RectangleCustom21']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168480", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T947, R1178, B948)
+   |    | ['Custom26', 'Shape Rectangle22', 'Shape RectangleCustom22']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168483", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T946, R1178, B947)
+   |    | ['Custom27', 'Shape Rectangle23', 'Shape RectangleCustom23']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168486", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T944, R1178, B945)
+   |    | ['Custom28', 'Shape Rectangle24', 'Shape RectangleCustom24']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168489", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T945, R1178, B946)
+   |    | ['Custom29', 'Shape Rectangle25', 'Shape RectangleCustom25']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168492", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T949, R1178, B950)
+   |    | ['Custom30', 'Shape Rectangle26', 'Shape RectangleCustom26']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168495", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T949, R1177, B950)
+   |    | ['Custom31', 'Shape Rectangle27', 'Shape RectangleCustom27']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168498", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1177, T943, R1178, B944)
+   |    | ['Custom32', 'Shape Rectangle28', 'Shape RectangleCustom28']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168501", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T943, R1177, B944)
+   |    | ['Custom33', 'Shape Rectangle29', 'Shape RectangleCustom29']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168504", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T943, R1176, B944)
+   |    | ['Custom34', 'Shape Rectangle30', 'Shape RectangleCustom30']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168507", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T942, R1176, B943)
+   |    | ['Custom35', 'Shape Rectangle31', 'Shape RectangleCustom31']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168510", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T949, R1176, B950)
+   |    | ['Custom36', 'Shape Rectangle32', 'Shape RectangleCustom32']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168513", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T950, R1176, B951)
+   |    | ['Custom37', 'Shape Rectangle33', 'Shape RectangleCustom33']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168516", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1180, T944, R1181, B945)
+   |    | ['Custom38', 'Shape Rectangle34', 'Shape RectangleCustom34']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168519", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1183, T944, R1184, B945)
+   |    | ['Custom39', 'Shape Rectangle35', 'Shape RectangleCustom35']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168522", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1183, T947, R1184, B948)
+   |    | ['Custom40', 'Shape Rectangle36', 'Shape RectangleCustom36']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168525", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1179, T944, R1180, B945)
+   |    | ['Custom41', 'Shape Rectangle37', 'Shape RectangleCustom37']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168528", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1179, T945, R1180, B946)
+   |    | ['Custom42', 'Shape Rectangle38', 'Shape RectangleCustom38']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168531", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1180, T945, R1181, B946)
+   |    | ['Custom43', 'Shape Rectangle39', 'Shape RectangleCustom39']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168534", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1182, T945, R1183, B946)
+   |    | ['Custom44', 'Shape Rectangle40', 'Shape RectangleCustom40']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168537", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1182, T944, R1183, B945)
+   |    | ['Custom45', 'Shape Rectangle41', 'Shape RectangleCustom41']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168540", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1183, T945, R1184, B946)
+   |    | ['Custom46', 'Shape Rectangle42', 'Shape RectangleCustom42']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168543", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1179, T947, R1180, B948)
+   |    | ['Custom47', 'Shape Rectangle43', 'Shape RectangleCustom43']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168546", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1179, T948, R1180, B949)
+   |    | ['Custom48', 'Shape Rectangle44', 'Shape RectangleCustom44']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168549", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1180, T948, R1181, B949)
+   |    | ['Custom49', 'Shape Rectangle45', 'Shape RectangleCustom45']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168552", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1182, T947, R1183, B948)
+   |    | ['Custom50', 'Shape Rectangle46', 'Shape RectangleCustom46']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168555", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1182, T948, R1183, B949)
+   |    | ['Custom51', 'Shape Rectangle47', 'Shape RectangleCustom47']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168558", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1183, T948, R1184, B949)
+   |    | ['Custom52', 'Shape Rectangle48', 'Shape RectangleCustom48']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168561", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T946, R1177, B947)
+   |    | ['Custom53', 'Shape Rectangle49', 'Shape RectangleCustom49']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168564", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T951, R1174, B952)
+   |    | ['Custom54', 'Shape Rectangle50', 'Shape RectangleCustom50']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168567", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T950, R1173, B951)
+   |    | ['Custom55', 'Shape Rectangle51', 'Shape RectangleCustom51']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168570", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1169, T947, R1170, B948)
+   |    | ['Custom56', 'Shape Rectangle52', 'Shape RectangleCustom52']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168573", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T949, R1172, B950)
+   |    | ['Custom57', 'Shape Rectangle53', 'Shape RectangleCustom53']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168576", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1170, T948, R1171, B949)
+   |    | ['Custom58', 'Shape Rectangle54', 'Shape RectangleCustom54']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168579", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1169, T945, R1170, B946)
+   |    | ['Custom59', 'Shape Rectangle55', 'Shape RectangleCustom55']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168582", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1170, T944, R1171, B945)
+   |    | ['Custom60', 'Shape Rectangle56', 'Shape RectangleCustom56']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168585", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T943, R1172, B944)
+   |    | ['Custom61', 'Shape Rectangle57', 'Shape RectangleCustom57']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168588", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T942, R1173, B943)
+   |    | ['Custom62', 'Shape Rectangle58', 'Shape RectangleCustom58']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168591", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T941, R1174, B942)
+   |    | ['Custom63', 'Shape Rectangle59', 'Shape RectangleCustom59']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168594", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T945, R1177, B946)
+   |    | ['Custom64', 'Shape Rectangle60', 'Shape RectangleCustom60']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168597", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T944, R1177, B945)
+   |    | ['Custom65', 'Shape Rectangle61', 'Shape RectangleCustom61']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168600", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T944, R1176, B945)
+   |    | ['Custom66', 'Shape Rectangle62', 'Shape RectangleCustom62']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168603", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T943, R1175, B944)
+   |    | ['Custom67', 'Shape Rectangle63', 'Shape RectangleCustom63']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168606", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T942, R1175, B943)
+   |    | ['Custom68', 'Shape Rectangle64', 'Shape RectangleCustom64']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168609", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T943, R1174, B944)
+   |    | ['Custom69', 'Shape Rectangle65', 'Shape RectangleCustom65']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168612", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T944, R1173, B945)
+   |    | ['Custom70', 'Shape Rectangle66', 'Shape RectangleCustom66']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168615", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T945, R1172, B946)
+   |    | ['Custom71', 'Shape Rectangle67', 'Shape RectangleCustom67']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168618", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1170, T946, R1171, B947)
+   |    | ['Custom72', 'Shape Rectangle68', 'Shape RectangleCustom68']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168621", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T946, R1174, B947)
+   |    | ['Custom73', 'Shape Rectangle69', 'Shape RectangleCustom69']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168624", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T946, R1175, B947)
+   |    | ['Custom74', 'Shape Rectangle70', 'Shape RectangleCustom70']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168627", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T948, R1175, B949)
+   |    | ['Custom75', 'Shape Rectangle71', 'Shape RectangleCustom71']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168630", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T946, R1172, B947)
+   |    | ['Custom76', 'Shape Rectangle72', 'Shape RectangleCustom72']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168633", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T945, R1174, B946)
+   |    | ['Custom77', 'Shape Rectangle73', 'Shape RectangleCustom73']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168636", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T948, R1174, B949)
+   |    | ['Custom78', 'Shape Rectangle74', 'Shape RectangleCustom74']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168639", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T949, R1175, B950)
+   |    | ['Custom79', 'Shape Rectangle75', 'Shape RectangleCustom75']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168642", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T945, R1176, B946)
+   |    | ['Custom80', 'Shape Rectangle76', 'Shape RectangleCustom76']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168645", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T946, R1176, B947)
+   |    | ['Custom81', 'Shape Rectangle77', 'Shape RectangleCustom77']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168648", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T947, R1176, B948)
+   |    | ['Custom82', 'Shape Rectangle78', 'Shape RectangleCustom78']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168651", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T947, R1175, B948)
+   |    | ['Custom83', 'Shape Rectangle79', 'Shape RectangleCustom79']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168654", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T947, R1177, B948)
+   |    | ['Custom84', 'Shape Rectangle80', 'Shape RectangleCustom80']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168657", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1176, T948, R1177, B949)
+   |    | ['Custom85', 'Shape Rectangle81', 'Shape RectangleCustom81']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168660", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T947, R1173, B948)
+   |    | ['Custom86', 'Shape Rectangle82', 'Shape RectangleCustom82']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168663", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T945, R1173, B946)
+   |    | ['Custom87', 'Shape Rectangle83', 'Shape RectangleCustom83']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168666", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T946, R1173, B947)
+   |    | ['Custom88', 'Shape Rectangle84', 'Shape RectangleCustom84']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168669", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T947, R1174, B948)
+   |    | ['Custom89', 'Shape Rectangle85', 'Shape RectangleCustom85']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168672", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T944, R1174, B945)
+   |    | ['Custom90', 'Shape Rectangle86', 'Shape RectangleCustom86']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168675", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T945, R1175, B946)
+   |    | ['Custom91', 'Shape Rectangle87', 'Shape RectangleCustom87']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168678", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1175, T948, R1176, B949)
+   |    | ['Custom92', 'Shape Rectangle88', 'Shape RectangleCustom88']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168681", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1171, T947, R1172, B948)
+   |    | ['Custom93', 'Shape Rectangle89', 'Shape RectangleCustom89']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168684", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1172, T948, R1173, B949)
+   |    | ['Custom94', 'Shape Rectangle90', 'Shape RectangleCustom90']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168687", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1173, T949, R1174, B950)
+   |    | ['Custom95', 'Shape Rectangle91', 'Shape RectangleCustom91']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168690", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T950, R1175, B951)
+   |    | ['Custom96', 'Shape Rectangle92', 'Shape RectangleCustom92']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168693", control_type="Custom")
+   |    | 
+   |    | Custom - 'Shape Rectangle'    (L1174, T944, R1175, B945)
+   |    | ['Custom97', 'Shape Rectangle93', 'Shape RectangleCustom93']
+   |    | child_window(title="Shape Rectangle", auto_id="Shape: 168696", control_type="Custom")
+   |    | 
+   |    | Static - 'Sidemark'    (L967, T506, R1032, B521)
+   |    | ['Sidemark', 'SidemarkStatic', 'Static28']
+   |    | child_window(title="Sidemark", auto_id="Layout Object: 168699", control_type="Text")
+   |    | 
+   |    | Static - 'PO#'    (L1213, T507, R1278, B522)
+   |    | ['PO#', 'PO#Static', 'Static29']
+   |    | child_window(title="PO#", auto_id="Layout Object: 168704", control_type="Text")
+   |    | 
+   |    | Static - 'Order Date'    (L1211, T547, R1276, B562)
+   |    | ['Order DateStatic', 'Order Date', 'Static30']
+   |    | child_window(title="Order Date", auto_id="Layout Object: 168709", control_type="Text")
+   |    | 
+   |    | Static - 'Ship Date'    (L1211, T587, R1276, B602)
+   |    | ['Ship Date', 'Ship DateStatic', 'Static31']
+   |    | child_window(title="Ship Date", auto_id="Layout Object: 168714", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1280, T849, R1380, B867)
+   |    | ['Ship DateEdit2', 'Job Start DateEdit', 'Edit29']
+   |    | child_window(auto_id="Field: POv10::Job Start Date", control_type="Edit")
+   |    | 
+   |    | Static - 'Job Start Date'    (L1203, T850, R1273, B865)
+   |    | ['Job Start Date', 'Job Start DateStatic', 'Static32']
+   |    | child_window(title="Job Start Date", auto_id="Layout Object: 168724", control_type="Text")
+   |    | 
+   |    | Static - 'Will Advise'    (L1511, T547, R1583, B562)
+   |    | ['Will Advise', 'Will AdviseStatic', 'Static33']
+   |    | child_window(title="Will Advise", auto_id="Layout Object: 168729", control_type="Text")
+   |    | 
+   |    | ComboBox - ''    (L1512, T562, R1586, B580)
+   |    | ['ComboBox9', 'Will AdviseComboBox']
+   |    | child_window(auto_id="Field: POv10::Expected Date Text", control_type="ComboBox")
+   |    | 
+   |    | Static - 'Information'    (L1411, T627, R1468, B642)
+   |    | ['InformationStatic', 'Static34', 'Information']
+   |    | child_window(title="Information", auto_id="Layout Object: 168739", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1412, T642, R1586, B660)
+   |    | ['InformationEdit', 'Edit30']
+   |    | child_window(auto_id="Field: POv10::Information", control_type="Edit")
+   |    | 
+   |    | GroupBox - ' Radio Button Set'    (L2, T1365, R27, B1389)
+   |    | [' Radio Button SetGroupBox', 'GroupBox', ' Radio Button Set']
+   |    | child_window(title=" Radio Button Set", auto_id="Layout Object: 168749", control_type="Group")
+   |    |    | 
+   |    |    | RadioButton - '+ 1 of 2'    (L2, T1365, R27, B1377)
+   |    |    | ['+ 1 of 2RadioButton', 'RadioButton', '+ 1 of 2', 'RadioButton0', 'RadioButton1']
+   |    |    | child_window(title="+ 1 of 2", auto_id="Button: 168754", control_type="RadioButton")
+   |    |    | 
+   |    |    | RadioButton - '- 2 of 2'    (L2, T1377, R27, B1389)
+   |    |    | ['- 2 of 2', '- 2 of 2RadioButton', 'RadioButton2']
+   |    |    | child_window(title="- 2 of 2", auto_id="Button: 168758", control_type="RadioButton")
+   |    | 
+   |    | Static - 'Style / Model Number'    (L1317, T745, R1423, B759)
+   |    | ['Style / Model NumberStatic', 'Style / Model Number', 'Static35']
+   |    | child_window(title="Style / Model Number", auto_id="Layout Object: 168762", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L1317, T760, R1417, B796)
+   |    | ['Style / Model NumberEdit', 'Edit31']
+   |    | child_window(auto_id="Field: Podat::Style Number", control_type="Edit")
+   |    | 
+   |    | Static - 'Verified'    (L1511, T506, R1551, B522)
+   |    | ['VerifiedStatic', 'Verified', 'Static36']
+   |    | child_window(title="Verified", auto_id="Layout Object: 168772", control_type="Text")
+   |    | 
+   |    | ComboBox - ''    (L1512, T522, R1586, B540)
+   |    | ['ComboBox10', 'VerifiedComboBox']
+   |    | child_window(auto_id="Field: POv10::Cost Verified Status", control_type="ComboBox")
+   |    | 
+   |    | Edit - ''    (L967, T680, R1087, B698)
+   |    | ['Project ManagerEdit', 'Edit32']
+   |    | child_window(auto_id="Field: POv10::Project Manager", control_type="Edit")
+   |    | 
+   |    | Static - 'Project Manager'    (L968, T665, R1049, B681)
+   |    | ['Project Manager', 'Project ManagerStatic', 'Static37']
+   |    | child_window(title="Project Manager", auto_id="Layout Object: 168787", control_type="Text")
+   | 
+   | TitleBar - ''    (L16, T-5, R2560, B23)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L0, T0, R22, B22)
+   |    | ['SystemMenu', 'System', 'Menu', 'System0', 'System1', 'Menu0', 'Menu1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L0, T0, R22, B22)
+   |    |    | ['MenuItem', 'System2', 'SystemMenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L2419, T0, R2466, B22)
+   |    | ['Minimize', 'MinimizeButton', 'Button4']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Restore'    (L2466, T0, R2512, B22)
+   |    | ['RestoreButton', 'Button5', 'Restore']
+   |    | child_window(title="Restore", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L2512, T0, R2560, B22)
+   |    | ['Close', 'Button6', 'CloseButton']
+   |    | child_window(title="Close", control_type="Button")
+   | 
+   | Menu - 'Application'    (L0, T23, R2560, B42)
+   | ['Application', 'Menu2', 'ApplicationMenu']
+   | child_window(title="Application", auto_id="MenuBar", control_type="MenuBar")
+   |    | 
+   |    | MenuItem - 'File'    (L0, T23, R32, B42)
+   |    | ['MenuItem2', 'File', 'FileMenuItem']
+   |    | child_window(title="File", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Edit'    (L32, T23, R66, B42)
+   |    | ['MenuItem3', 'EditMenuItem', 'Edit33']
+   |    | child_window(title="Edit", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'View'    (L66, T23, R105, B42)
+   |    | ['View', 'MenuItem4', 'ViewMenuItem']
+   |    | child_window(title="View", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Insert'    (L105, T23, R148, B42)
+   |    | ['MenuItem5', 'Insert', 'InsertMenuItem']
+   |    | child_window(title="Insert", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Format'    (L148, T23, R200, B42)
+   |    | ['MenuItem6', 'Format', 'FormatMenuItem']
+   |    | child_window(title="Format", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Requests'    (L200, T23, R261, B42)
+   |    | ['MenuItem7', 'RequestsMenuItem', 'Requests']
+   |    | child_window(title="Requests", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Scripts'    (L261, T23, R310, B42)
+   |    | ['Scripts', 'MenuItem8', 'ScriptsMenuItem']
+   |    | child_window(title="Scripts", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Tools'    (L310, T23, R352, B42)
+   |    | ['MenuItem9', 'Tools', 'ToolsMenuItem']
+   |    | child_window(title="Tools", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Window'    (L352, T23, R410, B42)
+   |    | ['MenuItem10', 'Window', 'WindowMenuItem']
+   |    | child_window(title="Window", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Help'    (L410, T23, R449, B42)
+   |    | ['Help', 'MenuItem11', 'HelpMenuItem']
+   |    | child_window(title="Help", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - ''    (L2532, T23, R2560, B42)
+   |    | ['MenuItem12']
